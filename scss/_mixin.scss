@@ -1,0 +1,39 @@
+@mixin flexsb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@mixin h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 15px;
+}
+@mixin whitebox {
+  color: #8a8787;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 30px;
+  border-radius: 0px 0px 5px 5px;
+  background: #fff;
+}
+@mixin h2 {
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  color: white;
+}
+@mixin parent {
+  display: inline-block;
+  position: relative;
+}
+@mixin flexcol {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}

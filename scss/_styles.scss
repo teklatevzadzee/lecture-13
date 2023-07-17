@@ -1,0 +1,102 @@
+body {
+  font-family: "Roboto";
+  background: #f1f1f1;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 100%;
+  padding: 21px;
+  background-color: #f5f5f5;
+  height: 80px;
+  z-index: 2;
+  .container {
+    @include flexsb;
+    justify-content: space-evenly;
+    width: 30%;
+  }
+
+  ul {
+    @include flexsb;
+    flex-direction: row;
+    gap: 3%;
+    width: 110%;
+    font-weight: bold;
+  }
+}
+h1 {
+  @include h1;
+}
+section {
+  margin: 0 3% 3% 3%;
+}
+.sec1 {
+  @include flexsb;
+  .container {
+    width: 362px;
+    height: 372px;
+  }
+  .whitebox {
+    @include whitebox;
+    p {
+      margin-bottom: 7%;
+    }
+    .time {
+      @include flexsb;
+      width: 20%;
+    }
+  }
+  .parent {
+    @include parent;
+    margin-top: 20px;
+    border-radius: 50px;
+  }
+  h2 {
+    @include h2;
+  }
+}
+.sec2 {
+  @include flexsb;
+  .part1text {
+    @include parent;
+    p {
+      position: absolute;
+      color: white;
+      top: 200px;
+      left: 270px;
+      font-size: 20px;
+    }
+  }
+  .part1 {
+    @include flexcol;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .part2 {
+    @include flexcol;
+    gap: 20px;
+  }
+}
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: #243043;
+  padding: 2%;
+  @include flexsb;
+  li {
+    color: #818687;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  ul {
+    @include flexcol;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}

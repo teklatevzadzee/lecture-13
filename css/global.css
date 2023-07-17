@@ -1,0 +1,205 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+  background: #f1f1f1;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  max-width: 100%;
+  padding: 21px;
+  background-color: #f5f5f5;
+  height: 80px;
+  z-index: 2;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 30%;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 3%;
+  width: 110%;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 15px;
+}
+
+section {
+  margin: 0 3% 3% 3%;
+}
+
+.sec1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sec1 .container {
+  width: 362px;
+  height: 372px;
+}
+.sec1 .whitebox {
+  color: #8a8787;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 30px;
+  border-radius: 0px 0px 5px 5px;
+  background: #fff;
+}
+.sec1 .whitebox p {
+  margin-bottom: 7%;
+}
+.sec1 .whitebox .time {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 20%;
+}
+.sec1 .parent {
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+.sec1 h2 {
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  color: white;
+}
+
+.sec2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sec2 .part1text {
+  display: inline-block;
+  position: relative;
+}
+.sec2 .part1text p {
+  position: absolute;
+  color: white;
+  top: 200px;
+  left: 270px;
+  font-size: 20px;
+}
+.sec2 .part1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+.sec2 .part2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: #243043;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer li {
+  color: #818687;
+  font-weight: 700;
+  font-size: 12px;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  align-items: flex-start;
+}
+footer p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}/*# sourceMappingURL=global.css.map */
